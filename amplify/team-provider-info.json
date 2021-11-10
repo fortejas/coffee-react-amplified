@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-mylandingpage-dev-101529-authRole",
+      "UnauthRoleArn": "arn:aws:iam::335688126910:role/amplify-mylandingpage-dev-101529-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::335688126910:role/amplify-mylandingpage-dev-101529-authRole",
+      "Region": "eu-west-2",
+      "DeploymentBucketName": "amplify-mylandingpage-dev-101529-deployment",
+      "UnauthRoleName": "amplify-mylandingpage-dev-101529-unauthRole",
+      "StackName": "amplify-mylandingpage-dev-101529",
+      "StackId": "arn:aws:cloudformation:eu-west-2:335688126910:stack/amplify-mylandingpage-dev-101529/23b61180-420f-11ec-8bfd-0292394d0304",
+      "AmplifyAppId": "d2x6iajmhvkz0u"
+    },
+    "categories": {
+      "function": {
+        "MyContactsFn": {
+          "deploymentBucketName": "amplify-mylandingpage-dev-101529-deployment",
+          "s3Key": "amplify-builds/MyContactsFn-5a576449547649557653-build.zip"
+        }
+      }
+    }
+  }
+}

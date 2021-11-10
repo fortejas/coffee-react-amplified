@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/contacts",
+      "lambdaFunction": "MyContactsFn",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/contacts"
+    }
+  ],
+  "resourceName": "contacts",
+  "apiName": "contacts",
+  "functionArns": [
+    {
+      "lambdaFunction": "MyContactsFn"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-mylandingpage-dev-101529-authRole",
+    "unAuthRoleName": "amplify-mylandingpage-dev-101529-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "MyContactsFn",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}
